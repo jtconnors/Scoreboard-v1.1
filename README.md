@@ -1,5 +1,5 @@
 # Scoreboard-v1.1
-12345678901234567890123456789012345678901234567890123456789012345678901234567890
+
 Overview
 This archive contains the source code required to build an electronic 
 scoreboard.  It is written in Java utilizing the JavaFX 2.x API, and is
@@ -14,9 +14,9 @@ active.  When a user moves his/her pointing device over an editable part of the
 scoreboard (a scoreboard digit), that component will, via JavaFX animation,
 increase in size.  This provides the user a visual cue about what component is
 in focus.  By either clicking on the focused digit, or by utilizing keyboard
-input, the user can change the value of the focused digit.  Each time a scoreboard
-digit is modified, an XML packet is created describing the modification, and
-sent out over an IP socket.
+input, the user can change the value of the focused digit.  Each time a
+scoreboard digit is modified, an XML packet is created describing the
+modification, and sent out over an IP socket.
 
 In slave or remote scoreboard mode, the scoreboard UI is inactive.  That is
 to say, it will not respond to any mouse or keyboard input.  Its display
