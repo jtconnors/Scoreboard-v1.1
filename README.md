@@ -1,6 +1,5 @@
 # Scoreboard-v1.1
 
-
 Overview
 
 This archive contains the source code required to build an electronic 
